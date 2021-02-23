@@ -1,0 +1,18 @@
+Stack_Analysis.txt
+
+Author: Danling Yang, Shiyi Zhou
+
+Push():
+In order to insert a new node to the end of the linked list, we use a while loop that traverse the entire linked list to find the last node and let it point to the node we want to insert. Since, the Big (O) notation is O(n).
+
+Pop():
+Pop() is similar with Push(). We  both need go to the end of the linked list to find the last node. For the Pop() we remove the last node and let tail point to the previous node. Since, the Big (O) notation is O(n).
+
+Peek():
+For this question, the peek is at the end of the linked list. To find the top element in the linked list, we just return the data of tail since tail always points to the last element in the linked list. The Big(O) notation is O(1).
+
+isEmpty():
+The linked list is empty or not is based on the the head is NULL or not. If the head points to a node that means the linked list is not empty list. The Big(o) notation is O(1)
+
+Print():
+To print the linked list we go through the whole list and print the node one by one by using a while loop. So the Big(O) notation is O(n).
